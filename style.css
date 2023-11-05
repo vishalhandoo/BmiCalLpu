@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: #10debc;
+    font-size: 12pt;
+}
+
+.mt-2 { margin-top: 1rem !important; }
+.mb-2 { margin-bottom: 1rem !important; }
+.hide{display: none !important;}
+.error-text { color: #08c23c; font-size: inherit; font-weight: bold;}
+
+.navbar{
+    margin: 0;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    border: 20px solid;
+    border-color: aqua;
+}
+.navbarSp{
+    font-style: italic;
+    font-size: 30px;
+}
+.form {
+    border:.1px solid rgb(5, 5, 5);
+    border-radius: 5px;
+    display: block;
+    max-width: 35vw;
+    margin: 10px auto;
+    padding: 1rem;
+    text-align: center;
+    font: inherit;
+    font-size: inherit;
+}
+
+.form-group {
+    display: block;
+    padding-bottom: 1px;
+}
+
+.input {
+    padding: 5px 5px;
+    width: 50%;
+    border: 1px solid #3a5c44;
+    border-radius: 4px;
+    font: inherit;
+    font-size: inherit;
+}
+
+.button {
+    padding: 10px 24px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: #08a3c2;
+    border: none;
+    text-decoration: none;
+    font: inherit;
+    font-size: inherit;
+}
+
+.b1 {
+    margin-right: 1rem;
+}
